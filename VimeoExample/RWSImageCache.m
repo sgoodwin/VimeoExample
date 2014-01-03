@@ -35,7 +35,12 @@
     }
 
     NSURLSessionDataTask *task = [self.session dataTaskWithURL:url completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
+        if([(NSHTTPURLResponse*)response statusCode] != 200){
+            return;
+        }
+
         UIImage *image = [UIImage imageWithData:data];
+        NSParameterAssert(image);
 
         [self.imageCache setObject:image forKey:url];
 

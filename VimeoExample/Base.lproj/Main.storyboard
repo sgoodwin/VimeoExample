@@ -22,7 +22,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RJw-EZ-FMa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-400" y="30"/>
+            <point key="canvasLocation" x="-412" y="53"/>
         </scene>
         <!--View Controller - Videos-->
         <scene sceneID="kXJ-V8-wFV">
@@ -117,11 +117,11 @@
                                 </constraints>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tip-3Y-tS4">
-                                <rect key="frame" x="20" y="58" width="280" height="426"/>
+                                <rect key="frame" x="20" y="58" width="280" height="446"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -137,7 +137,7 @@
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="G4V-jO-UA3" firstAttribute="top" secondItem="Tip-3Y-tS4" secondAttribute="bottom" constant="20" id="0pO-Sa-Ku9"/>
+                            <constraint firstItem="G4V-jO-UA3" firstAttribute="top" secondItem="Tip-3Y-tS4" secondAttribute="bottom" id="0pO-Sa-Ku9"/>
                             <constraint firstItem="v8N-Re-57G" firstAttribute="leading" secondItem="Tcg-TZ-vsV" secondAttribute="trailing" constant="8" id="4Q8-DA-xZs"/>
                             <constraint firstItem="Tcg-TZ-vsV" firstAttribute="top" secondItem="v8N-Re-57G" secondAttribute="top" id="5B6-Im-YBr"/>
                             <constraint firstAttribute="trailing" secondItem="Tip-3Y-tS4" secondAttribute="trailing" constant="20" id="5U0-w8-vdD"/>

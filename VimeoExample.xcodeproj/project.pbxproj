@@ -19,8 +19,6 @@
 		9B6C7EEA18772052008739E5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6C7EE918772052008739E5 /* XCTest.framework */; };
 		9B6C7EEB18772052008739E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6C7ECA18772052008739E5 /* Foundation.framework */; };
 		9B6C7EEC18772052008739E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6C7ECE18772052008739E5 /* UIKit.framework */; };
-		9B6C7EF418772052008739E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B6C7EF218772052008739E5 /* InfoPlist.strings */; };
-		9B6C7EF618772052008739E5 /* VimeoExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6C7EF518772052008739E5 /* VimeoExampleTests.m */; };
 		9B6C7F01187720AD008739E5 /* RWSVideoCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6C7F00187720AD008739E5 /* RWSVideoCollection.m */; };
 		9B6C7F04187720BB008739E5 /* RWSVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6C7F03187720BB008739E5 /* RWSVideo.m */; };
 		9B6C7F0718772187008739E5 /* RWSVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6C7F0618772187008739E5 /* RWSVideoCell.m */; };
@@ -56,9 +54,6 @@
 		9B6C7EE218772052008739E5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9B6C7EE818772052008739E5 /* VimeoExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VimeoExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B6C7EE918772052008739E5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		9B6C7EF118772052008739E5 /* VimeoExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VimeoExampleTests-Info.plist"; sourceTree = "<group>"; };
-		9B6C7EF318772052008739E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9B6C7EF518772052008739E5 /* VimeoExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VimeoExampleTests.m; sourceTree = "<group>"; };
 		9B6C7EFF187720AD008739E5 /* RWSVideoCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWSVideoCollection.h; sourceTree = "<group>"; };
 		9B6C7F00187720AD008739E5 /* RWSVideoCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWSVideoCollection.m; sourceTree = "<group>"; };
 		9B6C7F02187720BB008739E5 /* RWSVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWSVideo.h; sourceTree = "<group>"; };
@@ -100,7 +95,6 @@
 			isa = PBXGroup;
 			children = (
 				9B6C7ED018772052008739E5 /* VimeoExample */,
-				9B6C7EEF18772052008739E5 /* VimeoExampleTests */,
 				9B6C7EC918772052008739E5 /* Frameworks */,
 				9B6C7EC818772052008739E5 /* Products */,
 			);
@@ -158,24 +152,6 @@
 				9B6C7ED318772052008739E5 /* InfoPlist.strings */,
 				9B6C7ED618772052008739E5 /* main.m */,
 				9B6C7ED818772052008739E5 /* VimeoExample-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		9B6C7EEF18772052008739E5 /* VimeoExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				9B6C7EF518772052008739E5 /* VimeoExampleTests.m */,
-				9B6C7EF018772052008739E5 /* Supporting Files */,
-			);
-			path = VimeoExampleTests;
-			sourceTree = "<group>";
-		};
-		9B6C7EF018772052008739E5 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				9B6C7EF118772052008739E5 /* VimeoExampleTests-Info.plist */,
-				9B6C7EF218772052008739E5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -268,7 +244,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B6C7EF418772052008739E5 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +269,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B6C7EF618772052008739E5 /* VimeoExampleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,14 +297,6 @@
 				9B6C7EDD18772052008739E5 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9B6C7EF218772052008739E5 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9B6C7EF318772052008739E5 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -495,6 +461,7 @@
 				9B6C7EFB18772052008739E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B6C7EFC18772052008739E5 /* Build configuration list for PBXNativeTarget "VimeoExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +470,7 @@
 				9B6C7EFE18772052008739E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
